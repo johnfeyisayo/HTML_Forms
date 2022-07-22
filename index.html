@@ -8,38 +8,42 @@
 </head>
 <body>
     <h1>My Contact Details</h1>
+    <p>My Name: Okunowo John Feyisayo</p>
     <p>My Address: Gbagada, Lagos</p>
     <p>Phone Number: 08133475062</p>
     <p>Email: Johnfeyisayo@gmail.com</p>
-    <p>My Instagram page: <a target="_blank" href="https://instagram.com/johnfeyisayo?igshid=YmMyMTA2M2Y=">Visit Instagram.com</a></p>
+    <p>My Instagram page: <a target="_blank" href="https://instagram.com/johnfeyisayo?igshid=YmMyMTA2M2Y=">Instagram.com</a></p>
     <hr>
-<form action="mailto: johnfeyisayo@gmail.com" method="post">
-    <label for="yourName">Your Name</label>
-<input type="text" name="yourName"  id="yourName" placeholder="Enter your name" value="">
-<br>
-<br>
-<label for="yourEmail">Your Email</label>   
-<input type="text" name="yourEmail" id="yourEmail" placeholder="Enter your email address" value="">
-<br>
-<br>    
-<label for="Gender">Gender</label> 
-<input type="radio" name="gender" id="gender" value="male" />Male    
- <input type="radio" name="gender" id="gender" value="female" />Female  
-<br>
-<br>
-<label for="yourEmail">Your DOB</label>
-<input  type="date" name="dob" id="dob" placeholder="Please enter a DOB" value="">
-<br>
-<br>
-<label for="mobile">Your Phone Number</label>
-<input type="text" name="phone" id="phone" placeholder="Enter your phone number" value="">
-<br>
-<br>
-<label for="message">Message</label><br>
-<textarea name="message" id="message" placeholder="Please enter your message..." rows="10" cols="80" id="message"></textarea>
-<br>
-<br>
-<button type="button">Send</button>
+<form action="mailto:johnfeyisayo@gmail.com" method="post">
+    <fieldset>
+        <legend><b>User Personal Details</b></legend>
+        <label for="yourName">Your Name</label>
+        <input type="text" name="yourName"  id="yourName" placeholder="Enter your name" value="" required>
+        <br>
+        <br>
+        <label for="yourEmail">Your Email</label>   
+        <input type="text" name="yourEmail" id="yourEmail" placeholder="Enter your email address" value="">
+        <br>
+        <br>    
+        <label for="Gender">Gender</label> 
+        <input type="radio" name="gender" id="gender" value="male" />Male    
+         <input type="radio" name="gender" id="gender" value="female" />Female  
+        <br>
+        <br>
+        <label for="yourEmail">Your Date Of Birth</label>
+        <input  type="date" name="dob" id="dob" placeholder="Please enter a DOB" value="">
+        <br>
+        <br>
+        <label for="mobile">Your Phone Number</label>
+        <input type="text" name="phone" id="phone" placeholder="Enter your phone number" value="">
+        <br>
+        <br>
+        <label for="message">Message</label><br>
+        <textarea name="message" id="message" placeholder="Please enter your message..." rows="10" cols="80" id="message"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="submit">
+</fieldset>
 </form> 
 </body>
 </html>
